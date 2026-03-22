@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +7,35 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    <main class="app">
+        <section class="card">
+            <span class="eyebrow">CRUD simples</span>
+            <h1>Cadastro de pessoas</h1>
+            <p class="subtitle">Adicione, edite e remova registros em uma interface mais clara e organizada.</p>
 
-    <h1>Cadastro de pessoas</h1>
+            <div class="form-grid">
+                <label class="field">
+                    <span>Nome</span>
+                    <input type="text" id="nome" placeholder="Digite o nome">
+                </label>
 
-    <input type="text" id="nome" placeholder="Nome">
-    <input type="number" id="idade" placeholder="Idade">
+                <label class="field">
+                    <span>Idade</span>
+                    <input type="number" id="idade" placeholder="Digite a idade">
+                </label>
+            </div>
 
-    <button onclick="salvar()">Salvar</button>
+            <button class="primary-button" onclick="salvar()">Salvar</button>
 
-    <ul id="lista"></ul>
+            <section class="list-section">
+                <div class="list-header">
+                    <h2>Pessoas cadastradas</h2>
+                    <span class="list-badge">Lista dinamica</span>
+                </div>
+                <ul id="lista"></ul>
+            </section>
+        </section>
+    </main>
     
     <script src="./index.js"></script>
 </body>
