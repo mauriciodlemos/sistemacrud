@@ -1,49 +1,57 @@
-# Sistema de Cadastro (CRUD)
+# 🚀 Sistema CRUD
 
-Projeto simples de cadastro de pessoas feito com HTML, CSS e JavaScript puro.
+Projeto de um sistema CRUD (Create, Read, Update, Delete) desenvolvido para praticar conceitos fundamentais de desenvolvimento web.
 
-A ideia aqui foi montar uma aplicação básica para praticar operações de CRUD no front-end: adicionar, listar, editar e excluir pessoas diretamente na tela, sem depender de biblioteca ou framework.
+---
 
-## O que o projeto faz
+## 📌 Funcionalidades
 
-- cadastra pessoas com nome e idade
-- lista os registros na tela
-- permite editar um cadastro existente
-- permite excluir um cadastro da lista
-- traz uma interface mais organizada e responsiva
+* ➕ Criar registros
+* 📋 Listar dados
+* ✏️ Editar informações
+* ❌ Remover registros
 
-## Tecnologias usadas
+---
 
-- HTML5
-- CSS3
-- JavaScript
+## 🛠️ Tecnologias utilizadas
 
-## Como executar
+* HTML
+* CSS
+* JavaScript
 
-Como o projeto é todo em front-end, não precisa instalar dependências.
+---
 
-1. Baixe ou clone este repositório
+## 🎯 Objetivo do projeto
+
+Este projeto foi desenvolvido com o objetivo de:
+
+* Praticar lógica de programação
+* Trabalhar com manipulação de DOM
+* Entender o funcionamento de operações CRUD
+* Melhorar a organização de código
+
+---
+
+## 💻 Como executar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/mauriciodlemos/sistemacrud.git
+```
+
 2. Abra o arquivo `index.html` no navegador
 
-Se preferir, também pode usar a extensão Live Server no VS Code para visualizar as alterações em tempo real.
+---
 
-## Estrutura dos arquivos
+## 📷 Preview
 
-- `index.html`: estrutura da página
-- `index.css`: estilização da interface
-- `index.js`: lógica de cadastro, edição, exclusão e renderização da lista
+<img width="1911" height="897" alt="image" src="https://github.com/user-attachments/assets/3355955b-80f9-41d1-81b8-34c1aac83145" />
 
-## Objetivo do projeto
 
-Esse projeto foi desenvolvido com foco em estudo e prática de lógica com JavaScript, manipulação do DOM e organização de uma interface simples.
+---
 
-## Melhorias futuras
+## 👨‍💻 Autor
 
-- validar melhor os campos antes de salvar
-- exibir mensagens de erro ou sucesso
-- salvar os dados no `localStorage`
-- adicionar um layout ainda mais completo para a lista
-
-## Autor
-
-Desenvolvido por Maurício.
+Desenvolvido por Maurício Lemos
+🔗 https://github.com/mauriciodlemos
